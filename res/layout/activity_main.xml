@@ -27,7 +27,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             
-            android:fillViewport="true" >
+            android:fillViewport="true" 
+            android:paddingBottom="40dp"
+            >
 
             <!--  -->
 
@@ -72,7 +74,9 @@
                         android:layout_height="fill_parent"
                         android:layout_marginLeft="20dp"
                         android:gravity="center_vertical"
-                        android:orientation="horizontal" >
+                        android:orientation="horizontal" 
+                        android:paddingBottom="4dp"
+                        >
 
                         <ImageView
                             android:layout_width="wrap_content"
@@ -117,7 +121,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:gravity="center_vertical"
-                        android:orientation="horizontal" >
+                        android:orientation="horizontal" 
+                         android:paddingBottom="4dp"
+                        >
 
                         <ImageView
                             android:layout_width="wrap_content"
@@ -174,7 +180,9 @@
                         android:paddingLeft="10dp"
                         android:singleLine="true"
                         android:text=""
-                        android:textSize="16sp" />
+                        android:textSize="16sp" 
+                         android:paddingBottom="3dp"
+                        />
 
                     <!-- 获取4A验证码按键 -->
 
